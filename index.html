@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri</title>
+</head>
+
+<body>
+
+    <h1>Profil Pribadi</h1>
+
+    <div>
+        <img src="assets\fotoprofile.png" alt="Foto Profil" width="200">
+
+        <video width="480" controls>
+            <source src="assets\videoprofil.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video tag.
+        </video>
+    </div>
+
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</p>
+
+    <h2>Keterampilan</h2>
+    <table>
+        <tr>
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Mahir</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Pemula</td>
+        </tr>
+    </table>
+
+    <h2>Hubungi Saya</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <h2>Media Sosial</h2>
+    <a href="https://www.linkedin.com/in/muhamad-rizki-ilahi-337a55208/" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/Rizz-4G" target="_blank">GitHub</a> |
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+
+</body>
+
+</html>
